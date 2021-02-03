@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<body>
+
+<p>JavaScript Function</p>
+<p id="demo"></p>
+
+<script>
+var myFunction = new Function("a", "b", "return a * b");
+document.getElementById("demo").innerHTML = myFunction(10, 3);
+</script>
+
+</body>
+</html>
